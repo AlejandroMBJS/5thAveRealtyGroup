@@ -7,6 +7,19 @@ body {
     color: #fff;
     text-align: center;
 }
+/* Estilos para h2 */
+h2 {
+    color: #000; /* Color de texto negro */
+    font-size: 2em; /* Tamaño de fuente, ajusta según necesites */
+    margin-bottom: 0.5em; /* Espacio inferior */
+}
+
+/* Estilos para p */
+p {
+    color: #000; /* Color de texto negro */
+    font-size: 1em; /* Tamaño de fuente, ajusta según necesites */
+    margin: 0.5em 0; /* Márgenes superior e inferior */
+}
 
 header {
     background-color: #fff;
@@ -16,6 +29,7 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .header-content {
     flex: 1;
@@ -46,11 +60,6 @@ section {
     margin: 0 auto;
 }
 
-h2 {
-    color: #000; /* Rojo */
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
 
 .property {
     background-color: #000;
