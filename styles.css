@@ -140,35 +140,3 @@ footer {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #000;
-        color: #000;
-    }
-
-    header {
-        background-color: #fff;
-    }
-
-    section {
-        background-color: #fff;
-    }
-
-    .property {
-        background-color: #000;
-        color: #fff;
-        border: 1px solid #FF0000; /* Rojo */
-    }
-
-    .amenities img {
-        border: 2px solid #444;
-    }
-
-    #cta {
-        background-color: #333;
-    }
-
-    footer {
-        background-color: #000;
-    }
-}
