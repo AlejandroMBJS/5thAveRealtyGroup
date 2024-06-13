@@ -1,10 +1,10 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Didot', Arial, sans-serif; /* Establece Armani como la primera opción de fuente */
     margin: 0;
     padding: 0;
     background-color: #fff;
-    color: #333;
+    color: #000;
     text-align: center;
 }
 
@@ -23,13 +23,13 @@ header {
 }
 
 .logo img {
-    width: 100px; /* Adjust size as per your logo */
+    width: 100px; /* Ajusta el tamaño según tu logo */
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #e63946; /* Red */
+    color: #e63946; /* Rojo */
 }
 
 header p {
@@ -47,7 +47,7 @@ section {
 }
 
 h2 {
-    color: #e63946; /* Red */
+    color: #e63946; /* Rojo */
     font-size: 2em;
     margin-bottom: 0.5em;
 }
@@ -58,7 +58,7 @@ h2 {
     margin-bottom: 1.5em;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #e63946; /* Red */
+    border: 1px solid #e63946; /* Rojo */
 }
 
 .property h3 {
@@ -92,7 +92,7 @@ h2 {
     height: auto;
     margin: 0.5em;
     border-radius: 8px;
-    border: 2px solid #e63946; /* Red */
+    border: 2px solid #e63946; /* Rojo */
 }
 
 #cta {
@@ -107,7 +107,7 @@ h2 {
 
 .cta-button {
     display: inline-block;
-    background-color: #e63946; /* Red */
+    background-color: #e63946; /* Rojo */
     color: #fff;
     padding: 1em 2em;
     text-decoration: none;
@@ -116,7 +116,7 @@ h2 {
 }
 
 .cta-button:hover {
-    background-color: #b72c34; /* Dark Red */
+    background-color: #b72c34; /* Rojo oscuro */
 }
 
 footer {
@@ -157,7 +157,7 @@ footer {
     .property {
         background-color: #333;
         color: #e0e0e0;
-        border: 1px solid #e63946; /* Red */
+        border: 1px solid #e63946; /* Rojo */
     }
 
     .amenities img {
