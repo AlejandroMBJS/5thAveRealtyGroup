@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    color: #000;
+    color: #fff;
     text-align: center;
 }
 
 header {
     background-color: #000;
-    color: #fff;
+    color: #000;
     padding: 1em;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #e63946; /* Rojo */
+    color: #000; /* Rojo */
 }
 
 header p {
@@ -47,18 +47,18 @@ section {
 }
 
 h2 {
-    color: #e63946; /* Rojo */
+    color: #000; /* Rojo */
     font-size: 2em;
     margin-bottom: 0.5em;
 }
 
 .property {
-    background-color: #fff;
+    background-color: #000;
     padding: 1.5em;
     margin-bottom: 1.5em;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #e63946; /* Rojo */
+    border: 1px solid #fff; /* Rojo */
 }
 
 .property h3 {
@@ -92,13 +92,13 @@ h2 {
     height: auto;
     margin: 0.5em;
     border-radius: 8px;
-    border: 2px solid #e63946; /* Rojo */
+    border: 2px solid #FF0000; /* Rojo */
 }
 
 #cta {
     text-align: center;
     background-color: #000;
-    color: #fff;
+    color: #000;
     padding: 2em 1em;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -142,22 +142,22 @@ footer {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #121212;
-        color: #e0e0e0;
+        background-color: #000;
+        color: #000;
     }
 
     header {
-        background-color: #1c1c1c;
+        background-color: #fff;
     }
 
     section {
-        background-color: #1c1c1c;
+        background-color: #fff;
     }
 
     .property {
-        background-color: #333;
-        color: #e0e0e0;
-        border: 1px solid #e63946; /* Rojo */
+        background-color: #000;
+        color: #fff;
+        border: 1px solid #FF0000; /* Rojo */
     }
 
     .amenities img {
@@ -169,6 +169,6 @@ footer {
     }
 
     footer {
-        background-color: #1c1c1c;
+        background-color: #000;
     }
 }
