@@ -1,35 +1,37 @@
 /* Estilos generales */
 body {
-    font-family: 'Didot', Arial, sans-serif; /* Establece Armani como la primera opción de fuente */
+    font-family: 'Didot', 'Times New Roman', serif; /* Utiliza 'Didot' como la primera opción de fuente */
     margin: 0;
     padding: 0;
-    background-color: #fff;
-    color: #fff;
+    background-color: #fff; /* Fondo blanco */
+    color: #333; /* Color de texto principal */
     text-align: center;
+    line-height: 1.6; /* Espaciado entre líneas mejorado */
 }
+
 /* Estilos para h2 */
 h2 {
     color: #000; /* Color de texto negro */
-    font-size: 2em; /* Tamaño de fuente, ajusta según necesites */
+    font-size: 2.5em; /* Tamaño de fuente aumentado */
     margin-bottom: 0.5em; /* Espacio inferior */
 }
 
 /* Estilos para p */
 p {
-    color: #000; /* Color de texto negro */
-    font-size: 1em; /* Tamaño de fuente, ajusta según necesites */
-    margin: 0.5em 0; /* Márgenes superior e inferior */
+    color: #333; /* Color de texto principal */
+    font-size: 1.1em; /* Tamaño de fuente aumentado */
+    margin: 1em 0; /* Márgenes superior e inferior */
 }
 
 header {
-    background-color: #fff;
-    color: #000;
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Color de texto negro */
     padding: 1em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
-
 
 .header-content {
     flex: 1;
@@ -37,13 +39,13 @@ header {
 }
 
 .logo img {
-    width: 100px; /* Ajusta el tamaño según tu logo */
+    width: 100px; /* Tamaño del logo */
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #000; /* Rojo */
+    font-weight: bold; /* Texto en negrita */
 }
 
 header p {
@@ -60,19 +62,20 @@ section {
     margin: 0 auto;
 }
 
-
 .property {
-    background-color: #000;
+    background-color: #f0f0f0; /* Fondo gris claro */
     padding: 1.5em;
     margin-bottom: 1.5em;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #fff; /* Rojo */
+    border: 1px solid #ccc; /* Borde gris */
 }
 
 .property h3 {
     margin-top: 0;
     color: #000;
+    font-size: 1.8em; /* Tamaño de fuente aumentado */
+    font-weight: bold; /* Texto en negrita */
 }
 
 .property ul {
@@ -82,7 +85,7 @@ section {
 
 .property ul li {
     background: url('check-icon.png') no-repeat left center;
-    padding-left: 20px;
+    padding-left: 25px; /* Aumento del espacio a la izquierda */
     margin-bottom: 10px;
 }
 
@@ -101,13 +104,13 @@ section {
     height: auto;
     margin: 0.5em;
     border-radius: 8px;
-    border: 2px solid #FF0000; /* Rojo */
+    border: 2px solid #e63946; /* Borde rojo */
 }
 
 #cta {
     text-align: center;
-    background-color: #000;
-    color: #fff;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
     padding: 2em 1em;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -117,7 +120,7 @@ section {
 .cta-button {
     display: inline-block;
     background-color: #e63946; /* Rojo */
-    color: #000;
+    color: #fff; /* Texto blanco */
     padding: 1em 2em;
     text-decoration: none;
     border-radius: 5px;
@@ -131,8 +134,9 @@ section {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #000;
-    color: #000;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    font-size: 0.9em; /* Tamaño de fuente reducido */
 }
 
 @media (max-width: 768px) {
@@ -141,11 +145,10 @@ footer {
     }
 
     .property {
-        font-size: 0.9em;
+        font-size: 1em; /* Tamaño de fuente ajustado */
     }
 
     .amenities img {
         width: 100%;
     }
 }
-
